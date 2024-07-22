@@ -1,0 +1,114 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #1e1e1e; /* Dark background color */
+}
+
+.container {
+    width: 80%;
+    height: 80%;
+    background: #2e2e2e; /* Darker background color for container */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    text-align: center;
+    color: #ffffff; /* White color for text */
+    font-size: 24px; /* Larger text for heading */
+    margin-bottom: 20px;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    gap: 20px; /* Space between controls */
+    margin-bottom: 20px;
+    background: #333333; /* Dark background for the controls container */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.control-item {
+    flex: 1; /* Ensures controls take up equal space */
+    margin: 0 15px; /* Space between control items */
+    color: #ffffff; /* White color for text */
+}
+
+.font-family-container,
+.font-variant-container,
+.italic-toggle-container {
+    margin: 0 15px; /* Space between control items */
+    color: #ffffff; /* White color for text */
+}
+
+.dropdown {
+    width: 150px; /* Adjust as needed */
+    padding: 8px; /* Slightly larger padding for better appearance */
+    font-size: 16px;
+    background-color: #444; /* Dark background for dropdown */
+    color: #ffffff; /* White text color */
+    border: 1px solid #555; /* Slightly lighter border for better visibility */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.dropdown option {
+    background-color: #444; /* Dark background for options */
+    color: #ffffff; /* White text color for options */
+}
+
+textarea {
+    width: calc(100% - 40px); /* Slightly reduced width */
+    height: calc(100% - 160px);
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    resize: none;
+    background: #1e1e1e; /* Dark background for textarea */
+    color: #ffffff; /* White text color */
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; /* Button background color */
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker shade for hover effect */
+}
+
+.contact-details {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #ffffff; /* White color for contact details */
+}
+
+.contact-details a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact-details a:hover {
+    text-decoration: underline;
+}

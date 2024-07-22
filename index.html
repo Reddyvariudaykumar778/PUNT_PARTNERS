@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Editor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Text Editor</h1>
+        </div>
+        <div class="controls">
+            <div class="control-item font-family-container">
+                <label for="font-family">Font Family</label>
+                <select id="font-family" class="dropdown"></select>
+            </div>
+            
+            <div class="control-item font-variant-container">
+                <label for="font-variant">Variant</label>
+                <select id="font-variant" class="dropdown"></select>
+            </div>
+            
+            <div class="control-item italic-toggle-container">
+                <label for="italic-toggle">Italic</label>
+                <input type="checkbox" id="italic-toggle">
+            </div>
+        </div>
+        <textarea id="text-editor"></textarea>
+        <div class="buttons">
+            <button id="reset-btn">Reset</button>
+            <button id="save-btn">Save</button>
+        </div>
+        <div class="contact-details">
+            <p>Support Email: <a href="mailto:uudaykumar101@gmail.com">uudaykumar101@gmail.com</a></p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
